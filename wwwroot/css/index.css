@@ -1,0 +1,68 @@
+body {
+  background-color: rgb(255, 214, 157);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#Title {
+  font-size: 2.5em;
+  margin-top: 20px;
+  color: #e74c3c;
+}
+
+#CoverArt {
+  height: 300px;
+  width: auto;
+  border-radius: 50%;
+  display: block;
+}
+
+#Rating {
+  font-size: 1.2em;
+  color: #e74c3c;
+  padding: 0px;
+}
+
+#Trailer {
+  height: 340px;
+  width: 600px;
+  display: block;
+}
+
+#IMDB {
+  display: inline-block;
+  color: #6998ef;
+  font-size: 1.2em;
+  padding-top: 20px;
+}
+
+#IMDB:hover {
+  color: #2980b9;
+}
+
+#Summary {
+  font-size: 1.2em;
+  text-align: center;
+  color: #e74c3c;
+  padding-top: 20px;
+}
+
+#Actors {
+  color: #e74c3c;
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+#Actors li {
+  color: #e74c3c;
+  font-size: 1.2em;
+  margin: 5px 0;
+}
